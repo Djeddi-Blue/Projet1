@@ -1,11 +1,432 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-   <h1>Hello World</h1> 
-</body>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--=============== REMIXICONS ===============-->
+      <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+
+ <!--=============== BoxICONS ===============-->
+      <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+      <!--=============== SWIPER ===============-->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+     
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="style.css">
+
+      <title>SAP-KHEDMA</title>
+   </head>
+
+   <body>
+      <!--=============== HEADER ===============-->
+      <header class="header">
+         <nav class="nav container">
+            <div class="nav__data">
+               <a href="#" class="nav__logo">
+                  <img src="ressources/KHEDMA DEUTSCHLAND.png" alt="logo">
+                  <span>SAP-DEUTSCHLAND-KHEDMA</span>
+               </a>
+               
+               <div class="nav__toggle" id="nav-toggle">
+                  <i class="ri-menu-line nav__burger"></i>
+                  <i class="ri-close-line nav__close"></i>
+               </div>
+               
+            </div>
+
+            <!--=============== NAV MENU ===============-->
+            
+            <div class="nav__menu" id="nav-menu">
+               <ul class="nav__list">
+                
+                  <!--=============== DROPDOWN 1  ===============-->
+                  <li class="dropdown__item">
+                     <div class="nav__link">
+                       Accueil <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                       </div>
+
+                     <ul class="dropdown__menu">
+                        <li>
+                           <a href="#Über-Uns" class="dropdown__link">
+                              <i class="ri-home-smile-fill"></i> Über uns
+                           </a>                          
+                        </li>
+
+                        <li>
+                           <a href="#services" class="dropdown__link">
+                              <i class="ri-service-line"></i> Nos services</a>
+                        </li>
+  
+                        <!--=============== DROPDOWN SUBMENU ===============-->
+                        <li class="dropdown__subitem">
+                           <div class="dropdown__link">
+                              <i class="ri-bar-chart-line"></i> Nos vidéos <i class="ri-add-line dropdown__add"></i>
+                           </div>
+
+                           <ul class="dropdown__submenu">
+                              <li>
+                                 <a href="#" class="dropdown__sublink">
+                                    <i class="ri-file-list-line"></i> Acquérir un permis de travail en Allemagne en changeant de l’employeur ! 
+                                 </a>
+                              </li>
+      
+                              <li>
+                                 <a href="#" class="dropdown__sublink">
+                                    <i class="ri-cash-line"></i> Entamer une formation professionnelle en Allemagne !
+                                 </a>
+                              </li>
+      
+                              <li>
+                                 <a href="#" class="dropdown__sublink">
+                                    <i class="ri-refund-2-line"></i> Travailler en Allemagne !
+                                 </a>
+                              </li>
+
+                              <li>
+                                 <a href="#" class="dropdown__sublink">
+                                    <i class="ri-refund-2-line"></i> Réussir l’équivalence de votre parcours académique et professionnelle en Allemagne !!
+                                 </a>
+                              </li>
+
+                              <li>
+                                 <a href="#" class="dropdown__sublink">
+                                    <i class="ri-refund-2-line"></i> Découvrir votre emplacement de travail en avance !
+                                 </a>
+                              </li>
+                           </ul>
+                        </li>
+                     </ul>
+                  </li>
+               
+
+                  <!--=============== DROPDOWN 2 ===============-->
+                  <li class="dropdown__item">
+                     <div class="nav__link">
+                        Coaching et Accompagnement<i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                     </div>
+
+                     <ul class="dropdown__menu">
+                        <li>
+                           <a href="#Comment" class="dropdown__link">
+                              <i class='bx bxs-comment-error'></i></i>Comment ?
+                           </a>                          
+                        </li>
+
+                        <li>
+                           <a href="#" class="dropdown__link">
+                              <i class="ri-computer-line"></i>Accompagnement logistique
+                           </a>                          
+                        </li>
+
+                        <li>
+                           <a href="#" class="dropdown__link">
+                              <i class="ri-computer-line"></i>Dossier d'équivalence
+                           </a>                          
+                        </li>
+
+                        <li>
+                           <a href="#" class="dropdown__link">
+                              <i class="ri-computer-line"></i>Dossier de Visa
+                           </a>                          
+                        </li>
+
+                        <li>
+                           <a href="#" class="dropdown__link">
+                              <i class="ri-computer-line"></i>Permis de travail
+                           </a>                          
+                        </li>
+
+                       
+<!--=============== DROPDOWN SUBMENU ===============-->
+<li class="dropdown__subitem">
+   <div class="dropdown__link">
+      <i class="ri-bar-chart-line"></i>Candidature<i class="ri-add-line dropdown__add"></i>
+   </div>
+
+   <ul class="dropdown__submenu">
+      <li>
+         <a href="#" class="dropdown__sublink">
+            <i class="ri-file-list-line"></i> Pour une Formation Professionnelle
+         </a>
+      </li>
+
+      <li>
+         <a href="#" class="dropdown__sublink">
+            <i class="ri-cash-line"></i>Pour un poste de travail 
+         </a>
+      </li>
+
+       </ul>
+                  </li>                 
+     
+                     </ul>
+                  </li>
+                  <!--=============== DROPDOWN 2 ===============-->
+                  <li class="dropdown__item">
+                           <div class="nav__link">Services linguistiques <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                           </div>
+
+                           <ul class="dropdown__menu">
+                              <li>
+                                 <a href="#" class="dropdown__link">
+                                    <i class="ri-community-fill"></i> Entretien d'embauche
+                                 </a>                          
+                              </li>
+
+                              <li>
+                                 <a href="#" class="dropdown__link">
+                                    <i class='bx bxs-plane-alt'></i> Onboard-Allemagne
+                                 </a>                          
+                              </li>
+
+                              <li>
+                                 <a href="#" class="dropdown__link">
+                                    <i class="ri-global-fill"></i> Procédure d'équivalence
+                                 </a>                          
+                              </li>
+
+                              <li>
+                                 <a href="#" class="dropdown__link">
+                                    <i class='bx bx-chalkboard'></i> Examens B1 et B2
+                                 </a>                          
+                              </li>
+                           </ul>
+                  </li>            
+      
+                  
+                  
+                    <!--=============== DROPDOWN 3 ===============-->
+                    <li class="dropdown__item">
+                     <div class="nav__link">
+                        Actualités <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                     </div>
+
+                     <ul class="dropdown__menu">
+                        <li>
+                           <a href="#" class="dropdown__link">
+                              <i class="ri-user-line"></i> Offres d'emploi
+                           </a>                          
+                        </li>
+
+                        <li>
+                           <a href="#" class="dropdown__link">
+                              <i class='bx bx-calendar'></i> News und Erfolgsgeschichte
+                           </a>
+                        </li>
+                     </ul>
+                  </li> 
+
+                  <!--=============== DROPDOWN 4 ===============-->
+                  <li class="dropdown__item">
+                     <div class="nav__link">
+                        Nous rejoindre <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                     </div>
+
+                     <ul class="dropdown__menu">
+                        <li>
+                           <a href="#Adhérent" class="dropdown__link">
+                              <i class="ri-user-line"></i> Espace Adhérent
+                           </a>                          
+                        </li>
+
+                        <li>
+                           <a href="#" class="dropdown__link">
+                              <i class='bx bx-calendar'></i> Prise de rendez-vous
+                           </a>
+                        </li>
+
+                        <li>
+                           <a href="#" class="dropdown__link">
+                              <i class="ri-message-3-line"></i> Messages
+                           </a>
+                        </li>
+                     </ul>
+                  </li>      
+               </ul>
+            </div> 
+            
+         </nav>
+         
+      </header>
+      
+     
+
+  <!--=============== SWIPER ===============-->
+
+      <section class="home swiper" id="home">
+        <div class="swiper-wrapper">
+        
+        <div class="swiper-slide slide-box">
+            <img src="ressources/H11.jpg" alt="">
+           </div>
+        
+        <div class="swiper-slide slide-box">
+            <img src="ressources/h2.jpg" alt="">
+           </div>
+        
+        <div class="swiper-slide slide-box">
+            <img src="ressources/H1.jpg" alt="">
+        </div>
+        
+        <div class="swiper-slide slide-box">
+            <img src="ressources/H10.jpg" alt="">
+        </div>
+        
+        </div>
+        <div class="swiper-pagination"></div>
+        </section> 
+
+
+  <!--===============Ûbers uns  ===============-->
+
+<section class="Über-Uns" id="Über-Uns">
+<div class="video.container">
+   <iframe width="800" height="500" src="vidéos/Travailler en Allemagne !.mp4" frameborder="0" allowfullscreen></iframe>
+</div>
+<div class="Über-uns-content">
+
+   <h1 class="heading">Über <span>Uns</span></h1>
+   <p>Nos experts d’encadrements et de conseils spécialisés par secteur d’activité (expertise du métier) ou par secteur géographique (expertise du bassin d’emploi) afin de répondre à vos besoins d’informations de manière efficace. Nous vous accompagnons d’une manière personnalisée depuis l’orientation jusqu’à l’obtention de votre visa et votre début de carrière professionnelle. Nous travaillons avec plusieurs partenaires en Allemagne reconnus dans leurs domaines.</p>
+   <a href="#" class="btn">Read More</a>
+
+</div>
+</section>
+
+<!--===============section services design  ===============-->
+
+<section class="services" id="services">
+
+   <h2 class="heading">Nos <span>Services</span></h2>
+   <p>Changer votre perspective professionnelle en s'occupant de votre permis de travail en Allemagne.
+      <p>S'adresser à vos interlocuteurs en vous soutenant dans la rédaction de vos courriers quotidiens (Rathaus (Einwohnermeldeamt), Ausländerbehörde, Landesverwaltungsamt, Bank, Versicherer …etc.).</p>
+      <P>Préparer les dossiers d'équivalences pour les spécialités suivantes :</p>
+
+   <div class="services-container">
+
+      <div class="services-Box">
+         <i class="ri-pencil-ruler-line"></i>
+         <h3>Technicien en mécanique,
+             et électrique</h3>
+         <p>Changer votre perspective professionnelle en s'occupant de votre permis de travail  en Allemagne.</p>
+         <a href="#" class="btn">Read More</a>
+      </div>
+      <div class="services-Box">
+         <i class="ri-computer-line"></i>
+         <h3>Technicien en sciences informatiques</h3>
+         <p>Changer votre perspective professionnelle en s'occupant de votre permis de travail  en Allemagne.
+      
+         </p>
+         <a href="#" class="btn">Read More</a>
+      </div>
+   
+      <div class="services-Box">
+         <i class="ri-surgical-mask-fill"></i>
+         <h3>Technicien en anesthésie</h3>
+         <p>Changer votre perspective professionnelle en s'occupant de votre permis de travail  en Allemagne.
+          </p>
+         <a href="#" class="btn">Read More</a>
+      </div>
+  
+      <div class="services-Box">
+         <i class="ri-stethoscope-fill"></i>
+         <h3>Technicien en chirurigie</h3>
+         <p>Changer votre perspective professionnelle en s'occupant de votre permis de travail  en Allemagne.
+           </p>
+         <a href="#" class="btn">Read More</a>
+      </div>
+   
+      <div class="services-Box">
+         <i class="ri-hospital-fill"></i>
+         <h3>Laboratoire MTA</h3>
+         <p>Changer votre perspective professionnelle en s'occupant de votre permis de travail  en Allemagne.
+          </p>
+         <a href="#" class="btn">Read More</a>
+      </div>
+   
+      <div class="services-Box">
+         <i class="ri-stethoscope-fill"></i>
+         <h3>MTA-Radiologie</h3>
+         <p>Changer votre perspective professionnelle en s'occupant de votre permis de travail  en Allemagne.
+          </p>
+         <a href="#" class="btn">Read More</a>
+      </div>
+   
+      <div class="services-Box">
+         <i class="ri-nurse-fill"></i>
+         <h3>Infirmier en santé publique</h3>
+         <p>Changer votre perspective professionnelle en s'occupant de votre permis de travail  en Allemagne.
+          </p>
+         <a href="#" class="btn">Read More</a>
+      </div>
+  
+      <div class="services-Box">
+         <i class="ri-nurse-fill"></i>
+         <h3>Aide-soignant</h3>
+         <p>Changer votre perspective professionnelle en s'occupant de votre permis de travail  en Allemagne.
+           </p>
+         <a href="#" class="btn">Read More</a>
+      </div>
+   
+     
+   </div>
+</section>
+
+<!--===============section vidéos design  ===============-->
+<section class="videos" id="video">
+
+   <h2 class="heading">Nos <span>vidéos</span></h2>
+
+
+</section>
+
+<!--===============section Coaching et Accompagnement design  ===============-->
+
+<section class="Comment" id="Comment">
+
+   <h2 class="heading">Comment <span>?</span></h2>
+   <article class="container">
+      <img src="ressources/Design sans titre.png" alt="coaching">
+      <p>Envie de liberté dans votre choix du lieu de travail ? </p>
+         <p>  Envie de flexibilité et des solutions sur mesure pour votre projet de mobilité international ? </p>
+            <p> Envie d'accompagnement régulier et d’un suivi à distance ? </p>
+               <p> Envie d'expertise neutre ?
+         </p>
+
+   </article>
+</section>
+
+
+
+<!--===============section Nousrejoindre design  ===============-->   
+<section class="Adhérent" id="Adhérent">
+   <h2 class="heading">Espace <span>Adhérent</span></h2>
+
+   <form action="#">
+<div class="input-box">
+   <input type="text" placeholder="Nom">
+   <input type="text" placeholder="Prénom">
+   <input type="text" placeholder="Niveau académique">
+</div>
+<div class="input-box">
+   <input type="text" placeholder="Lieu de résidence">
+   <input type="email" placeholder="E-mail">
+   <input type="text" placeholder="E-mail Subject">
+</div>
+<textarea name="" id="" cols="30" rows="10" placeholder="Votre message"></textarea>
+<input type="Submit" value="Send Message" class="btn">
+   </form>
+
+</section>
+   
+
+
+
+
+      <!--=============== MAIN JS ===============-->
+      <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+      <script src="script.js"></script>
+   </body>
 </html>
